@@ -88,17 +88,25 @@ button, a, .uppercase {
     margin-bottom: 30px;
 }
 
-.active-card .icon-div {
+.active-card:hover .icon-div {
     background: #414042;
 }
 
-.active-card h3 {
+.active-card:hover h3 {
     color: #4bcaff;
 }
 
 .screen {
     border-radius: none;
     border: none;
+}
+
+.screen:hover .hover {
+    display: block !important;
+}
+
+.screen:hover .default-img {
+    display: none !important;
 }
 
 .screenShot-div {
@@ -138,7 +146,18 @@ button, a, .uppercase {
 
 .package {
     background: rgb(249, 249, 249);
-    border: 1px solid #f0f0f0; 
+    border: 1px solid #f0f0f0;
+    transition: .3s;
+}
+
+.package li {
+    background: transparent;
+}
+
+.package:hover {
+    
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 .carousel-ol {
@@ -149,6 +168,7 @@ button, a, .uppercase {
     border: none !important;
     width: 50px !important;
     height: 5px !important;
+    background: #4bcaff !important;
 }
 
 .map {
