@@ -76,7 +76,7 @@
                         <span>
                             <img class="m-2 p-2 circle" src="images/base/android-icon.png"/>
                         </span>
-                        </div>
+                    </div>
                 </div>
                 <a class="carousel-control-prev arrows" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon p-4 prev-circle" aria-hidden="true"></span>
@@ -94,14 +94,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid cards">
+    <div class="container-fluid cards"> 
         <div class="container">
             <div class="col-lg-6 col-md-9 col-12 mx-auto">
                 <h2 class="grey fs-38 text-center">summarize the features</h2>
                 <p class="grey fs-20 text-center">summarize what your product is all about</p>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 active-card">
                     <div class="mx-auto icon-div">
                         <img class="icons" src="images/features/layout-icon.png"/>
                     </div>
@@ -111,7 +111,7 @@
                         massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 active-card">
                     <div class="mx-auto icon-div">
                         <img class="icons" src="images/features/design-icon.png"/>
                     </div>
@@ -131,7 +131,7 @@
                         massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 active-card">
                     <div class="mx-auto icon-div">
                         <img class="icons" src="images/features/customize-icon.png"/>
                     </div>
@@ -153,10 +153,13 @@
             <div class="card-group">
                 <div class="col-lg-6 col-12 card mx-2 screen">
                     <div class="position-relative">
-                        <img class="card-img-top" src="images/screenshots/screenshot-blue.png" alt="Card image cap">
-                        <h1 class="p-0 screenShot-plus">+</h1>
+                        <div class="d-none hover">
+                            <img class="card-img-top" src="images/screenshots/screenshot-blue.png" alt="Card image cap">
+                            <h1 class="p-0 screenShot-plus">+</h1>
+                        </div>
+                        <img class="card-img-top default-img" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
                         <div class="p-0 screenShot-div">
-                            <h5 class="blue screenshots card-text text-center py-2 fs-15">screen shot #</h5>
+                            <h5 class="blue screenshots card-text text-center py-2 fs-15">screen shot #1</h5>
                         </div>
                     </div>
                     <div class="card-body">
@@ -168,7 +171,11 @@
                 </div>
                 <div class="col-lg-6 col-12 card mx-2 screen">
                     <div class="position-relative">
-                        <img class="card-img-top" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
+                        <div class="d-none hover">
+                            <img class="card-img-top" src="images/screenshots/screenshot-blue.png" alt="Card image cap">
+                            <h1 class="p-0 screenShot-plus">+</h1>
+                        </div>
+                        <img class="card-img-top default-img" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
                         <div class="p-0 screenShot-div">
                             <h5 class="blue screenshots card-text text-center py-2 fs-15">screen shot #2</h5>
                         </div>
@@ -182,7 +189,11 @@
                 </div>
                 <div class="col-lg-6 col-12 card mx-2 screen">
                     <div class="position-relative">
-                        <img class="card-img-top" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
+                        <div class="d-none hover">
+                            <img class="card-img-top" src="images/screenshots/screenshot-blue.png" alt="Card image cap">
+                            <h1 class="p-0 screenShot-plus">+</h1>
+                        </div>
+                        <img class="card-img-top default-img" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
                         <div class="p-0 screenShot-div">
                             <h5 class="blue screenshots card-text text-center py-2 fs-15">screen shot #3</h5>
                         </div>
@@ -196,7 +207,11 @@
                 </div>
                 <div class="col-lg-6 col-12 card mx-2 screen">
                     <div class="position-relative">
-                        <img class="card-img-top" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
+                        <div class="d-none hover">
+                            <img class="card-img-top" src="images/screenshots/screenshot-blue.png" alt="Card image cap">
+                            <h1 class="p-0 screenShot-plus">+</h1>
+                        </div>
+                        <img class="card-img-top default-img" src="images/screenshots/screenshot-grey.png" alt="Card image cap">
                         <div class="p-0 screenShot-div">
                             <h5 class="blue screenshots card-text text-center py-2 fs-15">screen shot #4</h5>
                         </div>
@@ -247,15 +262,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-10 col-12 m-3 package">
+                <div class="col-lg-3 col-md-8 col-10 m-3 package">
                     <div class="row flex-column">
-                        <h3 class="text-center my-4 uppercase fs-22 blue">professional package</h3>
+                        <h4 class="text-center my-4 uppercase fs-17 whitesmoke">professional package</h4>
                         <h1 class="text-center p-4 bg-blue white fs-85">25$</h1>
                         <ul class="list-group">
-                            <li class="list-group-item whitesmoke blue text-center price-list-item">Nullam suscipit vitae</li>
-                            <li class="list-group-item whitesmoke blue text-center price-list-item">Etiam faucibus</li>
-                            <li class="list-group-item whitesmoke blue text-center price-list-item">Vivamus Viverra</li>
-                            <li class="list-group-item whitesmoke blue text-center price-list-item">Praesent pharetra</li>
+                            <li class="list-group-item whitesmoke whitesmoke text-center price-list-item">Nullam suscipit vitae</li>
+                            <li class="list-group-item whitesmoke whitesmoke text-center price-list-item">Etiam faucibus</li>
+                            <li class="list-group-item whitesmoke whitesmoke text-center price-list-item">Vivamus Viverra</li>
+                            <li class="list-group-item whitesmoke whitesmoke text-center price-list-item">Praesent pharetra</li>
                         </ul>
                         <div class="d-flex justify-content-center my-4">
                             <button class="btn bg-blue px-5 py-3 white">purchase</button>
@@ -269,38 +284,76 @@
                         <ul class="list-group">
                             <li class="list-group-item whitesmoke text-center price-list-item">Nullam suscipit vitae</li>
                             <li class="list-group-item whitesmoke text-center price-list-item">Etiam faucibus</li>
-                        <li class="list-group-item whitesmoke text-center price-list-item">Vivamus Viverra</li>
-                    </ul>
-                    <div class="d-flex justify-content-center my-4">
-                        <button class="btn bg-orange px-5 py-3 white">purchase</button>
+                            <li class="list-group-item whitesmoke text-center price-list-item">Vivamus Viverra</li>
+                        </ul>
+                        <div class="d-flex justify-content-center my-4">
+                            <button class="btn bg-orange px-5 py-3 white">purchase</button>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-lightgrey">
-        <div class="col-lg-6 col-md-9 col-12 mx-auto pt-5 pb-3">
-            <div>
-                <h2 class="fs-36 grey mb-5 text-center">Testimonials</h2>
-            </div>
-            <div class="row flex-nowrap align-items-center mb-5">
-                <img class="mr-5 avatar" src="images/testimonial.png"/>
-                <div>
-                    <p class="m-0 fs-14 blue">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. 
-                        In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
-                    </p>
-                    <p class="text-right m-0 fs-14 blue">John Doe</p>
-                    <p class="text-right m-0 fs-14 blue">from some company</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active carousel-arrows"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-arrows"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="carousel-arrows"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-lightgrey">
+                <div class="col-lg-6 col-md-9 col-12 mx-auto pt-5 pb-3">
+                    <div>
+                        <h2 class="fs-36 grey mb-5 text-center">Testimonials</h2>
+                    </div>
+                    <div class="row flex-nowrap align-items-center mb-5">
+                        <img class="mr-5 avatar" src="images/testimonial.png"/>
+                        <div>
+                            <p class="m-0 fs-14 blue">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. 
+                                In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
+                            </p>
+                            <p class="text-right m-0 fs-14 blue">John Doe</p>
+                            <p class="text-right m-0 fs-14 blue">from some company</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="mt-5">
-                <ol class="carousel-indicators carousel-ol">
-                    <li data-slide-to="0" class="active bg-blue carousel-arrows"></li>
-                    <li data-slide-to="1" class="bg-lightblue carousel-arrows"></li>
-                    <li data-slide-to="2" class="bg-lightblue carousel-arrows"></li>
-                  </ol>
+            <div class="carousel-item bg-lightgrey">
+                <div class="col-lg-6 col-md-9 col-12 mx-auto pt-5 pb-3">
+                    <div>
+                        <h2 class="fs-36 grey mb-5 text-center">Testimonials</h2>
+                    </div>
+                    <div class="row flex-nowrap align-items-center mb-5">
+                        <img class="mr-5 avatar" src="images/testimonial.png"/>
+                        <div>
+                            <p class="m-0 fs-14 blue">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. 
+                                In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
+                            </p>
+                            <p class="text-right m-0 fs-14 blue">John Doe</p>
+                            <p class="text-right m-0 fs-14 blue">from some company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-lightgrey">
+                <div class="col-lg-6 col-md-9 col-12 mx-auto pt-5 pb-3">
+                    <div>
+                        <h2 class="fs-36 grey mb-5 text-center">Testimonials</h2>
+                    </div>
+                    <div class="row flex-nowrap align-items-center mb-5">
+                        <img class="mr-5 avatar" src="images/testimonial.png"/>
+                        <div>
+                            <p class="m-0 fs-14 blue">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. 
+                                In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
+                            </p>
+                            <p class="text-right m-0 fs-14 blue">John Doe</p>
+                            <p class="text-right m-0 fs-14 blue">from some company</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
