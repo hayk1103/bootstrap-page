@@ -15,7 +15,7 @@ $(() => {
                                 <p class="text-center fs-13">${value.description}</p>
                             </div>
                         `)
-                    } else if (item.divId === 'gallery') {
+                    } else if (item.divId === 'imageCards') {
                         $(`#${item.divId}`).prepend(`
                             <div class="col-lg-6 col-12 card mx-2 screen">
                                 <div class="position-relative">

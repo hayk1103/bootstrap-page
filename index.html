@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container-fluid header">
-        <div class="row navigation py-3">
+        <div class="row navigation py-3 position-fixed">
             <div class="container">
                 <div class="row justify-content-between">
                     <a class="navbar-brand" href="#">
@@ -29,25 +29,25 @@
                                     <a class="nav-link active-link" href="#">home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">features</a>
+                                    <a class="nav-link white" href="#features">features</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">gallery</a>
+                                    <a class="nav-link white" href="#gallery">gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">video</a>
+                                    <a class="nav-link white" href="#video">video</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">prices</a>
+                                    <a class="nav-link white" href="#prices">prices</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">testimonials</a>
+                                    <a class="nav-link white" href="#testimonials">testimonials</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">download</a>
+                                    <a class="nav-link white" href="#download">download</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link white" href="#">contact</a>
+                                    <a class="nav-link white" href="#contact">contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid cards"> 
+    <div class="container-fluid cards" id="features"> 
         <div class="container">
             <div class="col-lg-6 col-md-9 col-12 mx-auto">
                 <h2 class="grey fs-38 text-center">summarize the features</h2>
@@ -105,17 +105,17 @@
             <div class="row" id="cards"></div>
         </div>
     </div>
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="gallery">
         <div class="container">
             <div class="col-lg-6 col-12 mx-auto">
                 <h2 class="grey text-center">show the gallery</h2>
                 <p class="grey fs-20 text-center">summarize what your product is all about</p>
             </div>
-            <div class="card-group justify-content-center" id="gallery">
+            <div class="card-group justify-content-center" id="imageCards">
             </div>
         </div>
     </div>
-    <div class="container-fluid movie-part py-5">
+    <div class="container-fluid movie-part py-5" id="video">
         <div class="col-lg-8 col-12 mx-auto">
             <div class="row justify-content-center">
                 <img src="images/movie-part/video-play-icon.png"/>
@@ -130,7 +130,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5" id="prices">
         <div class="mb-5">
             <h2 class="text-center fs-36 mx-auto grey">choose your price</h2>
             <p class="text-center mx-auto fs-20 grey">summarize what your product is all about</p>
@@ -139,7 +139,7 @@
             <div class="row align-items-center justify-content-center" id="package"></div>
         </div>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators testimonials" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active carousel-arrows"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-arrows"></li>
@@ -202,7 +202,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-grey py-4">
+    <div class="container-fluid bg-grey py-4" id="download">
         <div class="col-lg-6 col-md-9 col-12 mx-auto">
             <div class="row justify-content-center">
                 <h1 class="white fs-55 mb-4">Do you Like this app?</h1>
@@ -210,7 +210,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-5 map">
+    <div class="container-fluid py-5 map" id="contact">
         <div class="modal-dialog modal-sm">
             <div class="modal-content bg-blue-opacity">
                 <div class="modal-header justify-content-center">

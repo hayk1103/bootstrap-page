@@ -25,7 +25,7 @@
         ]
     },
     "gallery": {
-        "divId": "gallery",
+        "divId": "imageCards",
         "body": [
             {
                 "title": "screen shot #1",
