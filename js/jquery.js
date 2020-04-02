@@ -4,7 +4,6 @@ $(() => {
         url: 'index.json',
         success: function(result) {
             $.each(result, function(i, item) {
-
                 $.each(item.body, function(i, value) {
                     if (item.divId === 'cards') {
                         $(`#${item.divId}`).prepend(`
