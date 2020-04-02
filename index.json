@@ -1,0 +1,85 @@
+{
+    "features": {
+        "divId": "cards",
+        "body": [
+            {
+                "title": "attractive layout",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.",
+                "icon": "images/features/layout-icon.png"
+            },
+            {
+                "title": "fresh design",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.",
+                "icon": "images/features/design-icon.png"
+            },
+            {
+                "title": "multipurpose",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.",
+                "icon": "images/features/multipurpose-icon.png"
+            },
+            {
+                "title": "easy to customize",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.",
+                "icon": "images/features/customize-icon.png"
+            }
+        ]
+    },
+    "gallery": {
+        "divId": "gallery",
+        "body": [
+            {
+                "title": "screen shot #1",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "title": "screen shot #2",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "title": "screen shot #3",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            },
+            {
+                "title": "screen shot #4",
+                "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar."
+            }
+        ]
+    },
+    "package": {
+        "divId": "package",
+        "body": [
+            {
+                "title": "basic package",
+                "price": "20$",
+                "abilities": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus Viverra"
+                ],
+                "color": "bg-green"
+            },
+            {
+                "title": "professional package",
+                "price": "25$",
+                "abilities": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus Viverra",
+                    "Praesent pharetra"
+                ],
+                "color": "bg-blue",
+                "margins": "mx-4"
+            },
+            {
+                "title": "advanced package",
+                "price": "30$",
+                "abilities": [
+                    "Nullam suscipit vitae",
+                    "Etiam faucibus",
+                    "Vivamus Viverra"
+                ],
+                "color": "bg-orange"
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+.white {
+    color: #fff !important;
+}
+
+.whitesmoke {
+    color: #d7d7d7 !important;
+}
+
+.snow {
+    color: #f9f9f9 !important;
+}
+
+.grey {
+    color: #414042 !important;
+}
+
+.lightgrey {
+    color: #838383 !important;
+}
+
+.blue {
+    color: #44b1e0 !important;
+}
+
+.bg-green {
+    background: #91c46b !important;
+}
+
+.bg-blue {
+    background: #4bcaff !important;
+}
+
+.bg-lightblue {
+    background: #c1eafb !important;
+}
+
+.bg-orange {
+    background: #fd7c00 !important;
+}
+
+.bg-lightgrey {
+    background: #f9f9f9 !important;
+}
+
+.bg-grey {
+    background: #414042 !important;
+}
